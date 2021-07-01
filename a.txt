@@ -1,0 +1,10 @@
+in pt.py uncommit the screen short and delete images in svm directory in desktop
+
+to active environment  ---->   source my-project-env/bin/activate
+need to delete sql db 
+python3 manage.py makemigrations
+python3 manage.py migrate
+then git add . 
+then git  commit  -a "first"
+then git push heroku master
+
